@@ -6,8 +6,9 @@ ChromeeOS will install elementary OS (with ChrUbuntu) and apply automatically al
 Supported device(s)
 -------------------
 
-* Acer C720
+* Acer C720 (Tested)
 * HP Chromebook 14 (Untested, but should work using the Acer C720 device profile)
+* Asus Panther Chromebox (Tested)
 
 Prerequisites
 -------------
@@ -47,4 +48,5 @@ Credit(s)
 * SuccessInCircuit on reddit for making a [guide](http://www.reddit.com/r/chrubuntu/comments/1rsxkd/list_of_fixes_for_xubuntu_1310_on_the_acer_c720/) on how to fix mostly everything with the Acer C720
 * Benson Leung for his [cros-haswell-modules](https://googledrive.com/host/0B0YvUuHHn3MndlNDbXhPRlB2eFE/cros-haswell-modules.sh) script
 * [Quatral Solutions](http://www.quatral.com) for providing the Acer C720 Chromebook
+* Jonathan Frank (Setsuna666) for creating Chromeeos and the Acer C720 profile
 * Everyone who contributed
