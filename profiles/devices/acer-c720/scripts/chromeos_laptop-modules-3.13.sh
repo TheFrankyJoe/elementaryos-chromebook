@@ -11,8 +11,8 @@ tar -xvf $modules_archives
 
 echo "Installing ChromeOS laptop modules..."
 cd chromeos_laptop/
-cp -f chromeos_laptop.ko /lib/modules/3.13.0-30-generic/kernel/drivers/platform/chrome/
-cp -f i2c-designware*.ko /lib/modules/3.13.0-30-generic/kernel/drivers/i2c/
+sudo cp -f chromeos_laptop.ko /lib/modules/3.13.0-30-generic/kernel/drivers/platform/chrome/
+sudo cp -f i2c-designware*.ko /lib/modules/3.13.0-30-generic/kernel/drivers/i2c/
 
 echo "ChromeOS laptop modules installation finished..."
 exit 0
